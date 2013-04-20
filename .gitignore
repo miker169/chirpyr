@@ -32,10 +32,12 @@ x64/
 *.tli
 *.tlh
 *.tmp
-*.log
 *.vspscc
 *.vssscc
 .builds
+
+# Windows Azure Publish Settings contain security keys for accessing  your windows azure account
+.publishsettings
 
 # Visual C++ cache files
 ipch/
@@ -47,13 +49,17 @@ ipch/
 # Visual Studio profiler
 *.psess
 *.vsp
-*.vspx
 
 # Guidance Automation Toolkit
 *.gpState
 
 # ReSharper is a .NET coding add-in
 _ReSharper*
+
+# Nuget 
+# Also consider letting Nuget automatically restore missing packages for you
+## http://docs.nuget.org/docs/workflows/using-nuget-without-commiting-packages/
+packages/
 
 # NCrunch
 *.ncrunch*
@@ -77,16 +83,6 @@ publish
 
 # Publish Web Output
 *.Publish.xml
-
-# NuGet Packages Directory
-packages
-
-# Windows Azure Build Output
-csx
-*.build.csdef
-
-# Windows Store app package directory
-AppPackages/
 
 # Others
 [Bb]in
