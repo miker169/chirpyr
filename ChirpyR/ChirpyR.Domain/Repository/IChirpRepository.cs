@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace ChirpyR.Domain.Repository
 {
+    using ChirpyR.Domain.Model;
+
     interface IChirpRepository
     {
         IList<Chirp> GetLatestChirps();

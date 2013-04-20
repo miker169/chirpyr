@@ -1,4 +1,4 @@
-﻿namespace ChirpyR.Domain
+﻿namespace ChirpyR.Domain.Model
 {
     using System.Collections.Generic;
 
